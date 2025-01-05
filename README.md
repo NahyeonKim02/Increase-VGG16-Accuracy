@@ -1,5 +1,5 @@
 # 📌 VGG16 정확도 높이기
-
+코드가 보이지 않을 시 [다음](https://colab.research.google.com/drive/1SoADC3YQ4x0CbLfskJmx-ix9w0TxPplH?usp=sharing)을 클릭하세요
 ### ⭐ 코드의 목적
 의사결정나무(Decision Tree)와 랜덤포레스트(Random Forest) 모델의 성능을 비교합니다.
 데이터를 효과적으로 분리 및 평가하여 최적의 학습 모델을 선정합니다.
