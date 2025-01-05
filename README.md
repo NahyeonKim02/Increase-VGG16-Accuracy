@@ -6,6 +6,10 @@
 
 모든 변수를 사용한 학습한 결과, 10개 속성만 선택 후 사용한 학습 결과를 포함하고 있습니다.
 
+Roboflow의 꽃 이미지 데이터를 이용하여 VGG16 모델의 정확도를 높이는 방법을 찾습니다.
+성능은 Accuracy, F1 Score으로 측정하였으며, Early Stopping과 StepLR을 활용하여 정확도를 높이고자 하였습니다. 
+최종 성능은 Final Validation Accuracy: 0.5856, Final Validation F1-score: 0.4325 입니다.
+
 ---
 
 ### ✨ 주요 내용
@@ -29,17 +33,19 @@
 ---
 
 ### 💻 사용 Tool
-- Python (Jupyter Notebook)
-- Excel
+- Python (Google Colab)
 
 ---
 
 ### 📂 사용된 라이브러리
 - NumPy
-- Pandas
 - Matplotlib
 - Scikit-learn
-- Imbalanced-learn
+- torch
+- torchvision
+- PIL
+- glob
+- os
 
 ---
 
